@@ -1,7 +1,8 @@
 repository:
-  default_branch: master
   allow_squash_merge: true
   allow_rebase_merge: true
+  default_branch: master
+  private: true
 
 branches:
   - name: master
@@ -18,4 +19,5 @@ branches:
         apps: []
         users: []
         teams: ["kronostechnologies/dev"]
+
 
