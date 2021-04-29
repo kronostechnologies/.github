@@ -1,0 +1,29 @@
+{
+  "extends": [
+    "@equisoft/eslint-config-typescript-react",
+    "plugin:import/typescript"
+  ],
+  "settings": {
+    "import/resolver": {
+      "typescript": {
+        "project": [
+          "tsconfig.json"
+        ]
+      }
+    }
+  },
+  "rules": {
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "/*.js",
+          "src/test/**/*",
+          "src/scripts/**/*",
+          "**/*.test.{js,jsx,ts,tsx}",
+          "**/*.spec.{js,jsx,ts,tsx}"
+        ]
+      }
+    ]
+  }
+}

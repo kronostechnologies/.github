@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "description": "Series of projects to manage our Github organization.",
+  "repository": "https://github.com/kronostechnologies/.github",
+  "license": "unlicensed",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

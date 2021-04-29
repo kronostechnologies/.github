@@ -1,0 +1,30 @@
+{
+  "name": "github-settings",
+  "version": "1.0.0",
+  "description": "Scripts to manage our Github organization.",
+  "repository": "https://github.com/kronostechnologies/.github",
+  "license": "unlicensed",
+  "type": "module",
+  "main": "build/dist/index.js",
+  "scripts": {
+    "start": "yarn build && node build/dist/index.js",
+    "build": "tsc",
+    "eslint": "./src/scripts/eslint.js",
+    "eslint:ci": "yarn eslint"
+  },
+  "dependencies": {
+    "octokit": "~1.0.3"
+  },
+  "devDependencies": {
+    "@equisoft/eslint-config-typescript": "~2.0.2",
+    "@equisoft/typescript-config": "~2.0.0",
+    "@types/node": "~15.0.1",
+    "@typescript-eslint/eslint-plugin": "~4.22.0",
+    "@typescript-eslint/parser": "~4.22.0",
+    "eslint": "~7.25.0",
+    "eslint-import-resolver-node": "~0.3.4",
+    "eslint-import-resolver-typescript": "~2.4.0",
+    "eslint-plugin-import": "~2.22.1",
+    "typescript": "~4.2.4"
+  }
+}

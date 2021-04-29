@@ -1,0 +1,17 @@
+{
+  "extends": "@equisoft/typescript-config/tsconfig.standards.json",
+  "compilerOptions": {
+    "baseUrl": "src/",
+    "outDir": "build/dist",
+    "importHelpers": true,
+    "module": "ES2020",
+    "moduleResolution": "Node",
+    "target": "ES2020",
+    "lib": [
+      "es2020"
+    ]
+  },
+  "include": [
+    "**/*"
+  ]
+}
