@@ -7,10 +7,10 @@ export function isRepositoryVisibility(key?: string): key is RepositoryVisibilit
 
 export interface Repository {
     archived: boolean;
-    default_branch: string;
+    defaultBranch: string;
     disabled: boolean;
-    html_url: string;
-    is_template: boolean;
+    htmlUrl: string;
+    isTemplate: boolean;
     license: string | undefined;
     name: string;
     visibility: RepositoryVisibility;

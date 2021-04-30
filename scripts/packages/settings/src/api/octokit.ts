@@ -11,6 +11,7 @@ export function createOctokit(token: GithubToken): Octokit {
         auth: token,
         previews: [
             'baptiste', // is_template and template_repository
+            'luke-cage', // required_pull_request_reviews.required_approving_review_count
             'nebula', // visibility
         ],
         throttle: {
