@@ -1,0 +1,7 @@
+# APM-deployed files; regenerate with apm install.
+.github/instructions/** linguist-generated=true
+.github/prompts/** linguist-generated=true
+.github/agents/** linguist-generated=true
+.agents/skills/** linguist-generated=true
+.github/mcp.json linguist-generated=true
+apm.lock.yaml linguist-generated=true
